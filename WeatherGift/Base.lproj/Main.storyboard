@@ -31,6 +31,18 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="About" id="8kS-xV-2sA"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Kuj-P3-PSh"/>
+                                    <barButtonItem style="plain" id="Au8-iy-McK">
+                                        <pageControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="GFl-Ft-DDB">
+                                            <rect key="frame" x="74" y="9" width="172" height="26"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" systemColor="systemTealColor"/>
+                                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="pageControlTapped:" destination="HIh-2f-JAJ" eventType="valueChanged" id="7EG-fZ-Hg1"/>
+                                            </connections>
+                                        </pageControl>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="WZJ-1c-UIA"/>
                                     <barButtonItem image="list.bullet" catalog="system" id="sby-0h-Qu7">
                                         <connections>
@@ -96,6 +108,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="3eT-bz-VUY" id="hCW-i9-FQJ"/>
                         <outlet property="imageView" destination="7dO-Ij-QEC" id="KKy-xf-Md6"/>
+                        <outlet property="pageControl" destination="GFl-Ft-DDB" id="Idm-r2-cau"/>
                         <outlet property="placeLabel" destination="hET-MO-WPr" id="JB9-03-Dry"/>
                         <outlet property="summaryLabel" destination="GM4-uV-uog" id="eA1-tn-7Xe"/>
                         <outlet property="temperatureLabel" destination="6Ex-xe-Ooj" id="TrS-cc-3FY"/>
