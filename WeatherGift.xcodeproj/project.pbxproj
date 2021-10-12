@@ -11,6 +11,7 @@
 		F06154DB271519BF00BD4D22 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06154DA271519BF00BD4D22 /* APIkeys.swift */; };
 		F06154DD2715242A00BD4D22 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06154DC2715242A00BD4D22 /* LocationDetailViewController.swift */; };
 		F06154DF2715453000BD4D22 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06154DE2715453000BD4D22 /* PageViewController.swift */; };
+		F06154E127155F5F00BD4D22 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06154E027155F5F00BD4D22 /* WeatherDetail.swift */; };
 		F0AA76312715094600B19030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA76302715094600B19030 /* AppDelegate.swift */; };
 		F0AA76332715094600B19030 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA76322715094600B19030 /* SceneDelegate.swift */; };
 		F0AA76352715094600B19030 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA76342715094600B19030 /* LocationListViewController.swift */; };
@@ -27,6 +28,7 @@
 		F06154DA271519BF00BD4D22 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		F06154DC2715242A00BD4D22 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		F06154DE2715453000BD4D22 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F06154E027155F5F00BD4D22 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		F0AA762D2715094600B19030 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AA76302715094600B19030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0AA76322715094600B19030 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				F0AA76302715094600B19030 /* AppDelegate.swift */,
 				F0AA76322715094600B19030 /* SceneDelegate.swift */,
 				F0AA76442715097D00B19030 /* WeatherLocation.swift */,
+				F06154E027155F5F00BD4D22 /* WeatherDetail.swift */,
 				F06154DE2715453000BD4D22 /* PageViewController.swift */,
 				F06154DC2715242A00BD4D22 /* LocationDetailViewController.swift */,
 				F0AA76342715094600B19030 /* LocationListViewController.swift */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0AA76352715094600B19030 /* LocationListViewController.swift in Sources */,
+				F06154E127155F5F00BD4D22 /* WeatherDetail.swift in Sources */,
 				F06154DF2715453000BD4D22 /* PageViewController.swift in Sources */,
 				F0AA76452715097D00B19030 /* WeatherLocation.swift in Sources */,
 				F06154DB271519BF00BD4D22 /* APIkeys.swift in Sources */,
