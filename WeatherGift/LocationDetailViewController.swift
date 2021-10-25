@@ -29,6 +29,11 @@ class LocationDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         clearUserInterface()
         
         tableView.delegate = self
@@ -37,7 +42,10 @@ class LocationDetailViewController: UIViewController {
         collectionView.delegate = self
         
         updateUserInterface()
+
     }
+    
+    
     
     func clearUserInterface() {
         dateLabel.text = ""
@@ -125,7 +133,7 @@ extension LocationDetailViewController: UICollectionViewDataSource, UICollection
         return weatherDetail.hourlyWeatherData.count
     }
     
-func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let hourlyCell = collectionView.dequeueReusableCell(withReuseIdentifier: "HourlyCell", for: indexPath) as! HourlyCollectionViewCell
     hourlyCell.hourlyWeather = weatherDetail.hourlyWeatherData[indexPath.row]
     return hourlyCell
