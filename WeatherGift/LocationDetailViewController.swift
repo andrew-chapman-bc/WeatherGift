@@ -41,7 +41,7 @@ class LocationDetailViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         collectionView.delegate = self
-        collectionView.delegate = self
+        collectionView.dataSource = self
         
         if locationIndex == 0 {
             getLocation()
